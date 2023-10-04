@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  <script src="https://sse-1.codesandbox.io/client-hook-6.js"></script><style type="text/css" data-vite-dev-id="/sandbox/src/App.module.css">._root_5lp9e_1 {
+  height: 100%;
+  font-family: sans-serif;
+  background-color: __backgroundColor__;
+  flex-basis: 100%;
+  overflow-y: auto;
+  /* __center__ */
+}
+</style><style type="text/css" data-vite-dev-id="/sandbox/src/components/_resets.module.css">:where(._storybrainResets_48zhe_1),
+:where(._storybrainResets_48zhe_1) * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:where(._storybrainResets_48zhe_1),
+:where(._storybrainResets_48zhe_1) :not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+:where(._storybrainResets_48zhe_1) ul,
+:where(._storybrainResets_48zhe_1) ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+:where(._storybrainResets_48zhe_1) p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+:where(._storybrainResets_48zhe_1) img {
+  object-fit: contain;
+}
+
+:where(._storybrainResets_48zhe_1) svg {
+  overflow: visible;
+}
+</style><style type="text/css" data-vite-dev-id="/sandbox/src/components/Desktop4/Desktop4.module.css">._root_fkqq9_1 {
+  position: relative;
+  width: 2251px;
+  height: 1619px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+._rectangle6_fkqq9_42 {
+    position: absolute;
+    left: 122px;
+    top: 126px;
+    width: 1269px;
+    height: 1379px;
+    outline: solid 2px #000;
+    outline-offset: -2px;
+    border-radius: 75px;
+    background-color: #fff;
+    backdrop-filter: blur(2px);
+}
+._rectangle17_fkqq9_277 {
+    position: absolute;
+    left: 377px;
+    top: 197px;
+    width: 1035px;
+    height: 67px;
+    background-color: #d9d9d9;
+}
+._rectangle18_fkqq9_285 {
+    position: absolute;
+    left: 122px;
+    top: 193px;
+    width: 539px;
+    height: 67px;
+    background-color: #171b5a;
+}
+._rectangle1_fkqq9_9 {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 2278px;
+    height: 121px;
+    background-color: #171b5a;
+}
+._rectangle2_fkqq9_17 {
+    position: absolute;
+    left: -13px;
+    top: 1505px;
+    width: 2264px;
+    height: 114px;
+    background-color: #171b5a;
+}
+._sTUDENTENROLLMENTFORM_fkqq9_25 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 45px;
+  top: 59px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+._iconeFlecheGaucheGrise1_fkqq9_54 {
+  transform-origin: top left;
+  position: absolute;
+  left: 663px;
+  top: 1517px;
+  width: 94px;
+  height: 106px;
+  background-image:/* webpackIgnore: true */ url('/assets/iconeFlecheGaucheGrise1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+._iconeFlecheGaucheGrise2_fkqq9_67 {
+  transform-origin: top left;
+  position: absolute;
+  left: 884px;
+  top: 1517px;
+  width: 105px;
+  height: 95px;
+  background-image:/* webpackIgnore: true */ url('/assets/iconeFlecheGaucheGrise2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+
+._zipCode_fkqq9_140 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 166px;
+  top: 1338px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._country_fkqq9_157 {
+  position: absolute;
+  left: 167px;
+  top: 1280px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._labelWrapper_fkqq9_168 {
+  font-size: 32px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+._label_fkqq9_168 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._label2_fkqq9_182 {
+  color: #000;
+  font-size: 48px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Times New Roman, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._province_fkqq9_190 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 166px;
+  top: 1220px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._municipalityCity_fkqq9_207 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 167px;
+  top: 1164px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._barangay_fkqq9_224 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 166px;
+  top: 1105px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._streetName_fkqq9_241 {
+  transform-origin: top left;
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 166.6895px;
+  top: 1048.6351px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+  
+}
+._householdNoStreet_fkqq9_260 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 166px;
+  top: 990px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+
+._cURRENTADDRESS_fkqq9_293 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 168px;
+  top: 931px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+input[type="textarea"] {
+  position: absolute;
+
+  top: 52px;
+  width: 1168px;
+  height: 64px;
+  outline: solid 2px #000;
+  outline-offset: -2px;
+  background-color: #fef7f7;
+}
+._ifYesWriteThe4PSHouseholdIDNum_fkqq9_320 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 184px;
+  top: 790px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._no_fkqq9_337 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1275px;
+  top: 708px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._yes_fkqq9_354 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1012px;
+  top: 708px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+input{
+ 
+  left: .5px;
+  top: 2px;
+  width: 57px;
+  height: 60px;
+  outline: solid 2px #000;
+  outline-offset: -2px;
+  background-color: #f6f1ee12;
+}
+._isYourFamilyABeneficiaryOf4Ps_fkqq9_391 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 179px;
+  top: 706px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._ifYesPleaseSpecify_fkqq9_408 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 177px;
+  top: 598px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._yes2_fkqq9_425 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 485px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._no2_fkqq9_442 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 698px;
+  top: 481px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+._belongingToAnyIndigenousPeople_fkqq9_469 {
+  position: absolute;
+  left: 77px;
+  top: 332px;
+  width: 1104px;
+  height: 91px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+._textBlock_fkqq9_480 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._textBlock2_fkqq9_488 {
+  margin-top: 0;
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._frame1_fkqq9_497 {
+  position: absolute;
+  left: 251px;
+  top: 727px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+._rectangle7_fkqq9_505 {
+  position: absolute;
+  left: 228px;
+  top: 473px;
+  width: 77px;
+  height: 60px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #8e603f12;
+}
+input#specify1 {
+  position: absolute;
+  left: 540px;
+  width: 619px;
+  height: 64px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4efef;
+}
+input[type="text"] {
+  position: absolute;
+  left: 540px;
+  width: 619px;
+  height: 44px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4efef;
+}
+._logo_fkqq9_525 {
+  position: absolute;
+  left: 1563px;
+  top: 377px;
+  width: 568px;
+  height: 494px;
+  background-image:/* webpackIgnore: true */ url('/assets/logo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+._centerOfExcellenceGearingTowar_fkqq9_536 {
+  position: absolute;
+  left: 1609px;
+  top: 958px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._textBlock3_fkqq9_547 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._textBlock4_fkqq9_554 {
+  margin-top: 0;
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._textBlock5_fkqq9_562 {
+  margin-top: 0;
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+</style><style type="text/css" data-vite-dev-id="/sandbox/src/resets.css">html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: flex;
+  flex-basis: 100%;
+  width: 100%;
+}
+
+#root {
+  position: relative;
+}
+
+body button:not(:disabled) {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+</style></head>
+  <body>
+    <div id="root">
+        <div class="_storybrainResets_48zhe_1 _root_5lp9e_1">
+            <div class="_storybrainResets_48zhe_1 _root_fkqq9_1">
+                <div class="_rectangle1_fkqq9_9"></div><div class="_rectangle2_fkqq9_17"></div>
+                <div class="_sTUDENTENROLLMENTFORM_fkqq9_25">STUDENT ENROLLMENT FORM</div>
+                <div class="_rectangle6_fkqq9_42"></div>
+                <div class="_iconeFlecheGaucheGrise1_fkqq9_54">
+                  <img src="iconeFlecheGaucheGrise1.jpg" alt="_iconeFlecheGaucheGrise1_fkqq9_54">
+                </div>
+                <a href="DESKTOP5.html">
+                <div class="_iconeFlecheGaucheGrise2_fkqq9_67">
+                 <img src="iconeFlecheGaucheGrise2.jpg" alt="_iconeFlecheGaucheGrise2_fkqq9_67"> 
+                </div></a>
+                <div class="_zipCode_fkqq9_140">
+                  <input type="text" id="zipcode" name="zipcode[]" >Zip Code:</div>
+                <div class="_country_fkqq9_157">
+                    <p class="_labelWrapper_fkqq9_168">
+                        <span class="_label_fkqq9_168">
+                          <input type="text" id="country" name="country[]" >Country</span>
+                        <span class="_label2_fkqq9_182">:</span>
+                    </p></div><div class="_province_fkqq9_190">
+                      <input type="text" id="province" name="province[]" >Province:</div>
+                    <div class="_municipalityCity_fkqq9_207">
+                      <input type="text" id="municipal" name="municipal[]" >Municipality/City:</div>
+                    <div class="_barangay_fkqq9_224">
+                     <input type="text" id="brgy" name="brgy[]" >Barangay:</div>
+                    <div class="_streetName_fkqq9_241">
+                      <input type="text" id="stname" name="stname[]" >Street Name:</div>
+                    <div class="_householdNoStreet_fkqq9_260">
+                    <input type="text" id="houseNo" name="houseNo[]" >Household No./ Street:</div>
+                    <div class="_rectangle17_fkqq9_277"></div>
+                    <div class="_rectangle18_fkqq9_285"></div>
+                    <div class="_cURRENTADDRESS_fkqq9_293">
+                      <input type="text" id="address" name="address[]" >CURRENT ADDRESS</div>
+                   
+                    <div class="_ifYesWriteThe4PSHouseholdIDNum_fkqq9_320">
+   <input type="textarea" id="houseID2" name="houseID[]" >If yes, write the 4PS Household ID Number below.</div>
+                    <div class="_no_fkqq9_337">
+                      <input type="checkbox" id="no" name="no" >
+    <label for="no">No</label></div>
+                    <div class="_yes_fkqq9_354">
+                      <input type="checkbox" id="yes" name="yes">
+    <label for="no">Yes</label></div>
+                    <div class="_isYourFamilyABeneficiaryOf4Ps_fkqq9_391">Is your family a beneficiary of 4Ps?</div>
+                    <div class="_ifYesPleaseSpecify_fkqq9_408">
+                      <input type="text" id="specify1" name="specify[]" >If Yes, please specify: </div>
+                    <div class="_yes2_fkqq9_425">
+                      <input type="checkbox">Yes</div>
+                    <div class="_no2_fkqq9_442">
+                      <input type= "checkbox"> No</div>
+
+                    <div class="_belongingToAnyIndigenousPeople_fkqq9_469">
+                    <div class="_textBlock_fkqq9_480">Belonging to any indigenous People (IP)</div>
+                    <div class="_textBlock2_fkqq9_488">Community/ Indigenous Cultural Community? </div>
+                </div><div class="_frame1_fkqq9_497"></div>
+                
+                <div class="_rectangle9_fkqq9_515"></div>
+                <div class=""></div>
+                <div class="_logo_fkqq9_525"><img src="logo.jpg" alt="_logo_fkqq9_525"></div>
+                <div class="_centerOfExcellenceGearingTowar_fkqq9_536">
+                    <div class="_textBlock3_fkqq9_547">Center of Excellence Gearing</div>
+                    <div class="_textBlock4_fkqq9_554">towards Sustainable Quality</div>
+                    <div class="_textBlock5_fkqq9_562">Education</div></div></div></div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon="{&quot;rayId&quot;:&quot;80cbc467db07404c&quot;,&quot;version&quot;:&quot;2023.8.0&quot;,&quot;b&quot;:1,&quot;token&quot;:&quot;7449176f14aa420c959831edd48bd5b7&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+</body></html>

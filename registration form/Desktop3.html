@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  <script src="https://sse-1.codesandbox.io/client-hook-6.js"></script><style type="text/css" data-vite-dev-id="/sandbox/src/App.module.css">._root_5lp9e_1 {
+  height: 100%;
+  font-family: sans-serif;
+  background-color: __backgroundColor__;
+  flex-basis: 100%;
+  overflow-y: auto;
+  /* __center__ */
+}
+</style><style type="text/css" data-vite-dev-id="/sandbox/src/components/_resets.module.css">:where(._storybrainResets_48zhe_1),
+:where(._storybrainResets_48zhe_1) * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:where(._storybrainResets_48zhe_1),
+:where(._storybrainResets_48zhe_1) :not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+:where(._storybrainResets_48zhe_1) ul,
+:where(._storybrainResets_48zhe_1) ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+:where(._storybrainResets_48zhe_1) p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+:where(._storybrainResets_48zhe_1) img {
+  object-fit: contain;
+}
+
+:where(._storybrainResets_48zhe_1) svg {
+  overflow: visible;
+}
+</style><style type="text/css" data-vite-dev-id="/sandbox/src/components/Desktop3/Desktop3.module.css">._root_r2o08_1 {
+  position: relative;
+  width: 2251px;
+  height: 1619px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+._sTUDENTENROLLMENTFORM_r2o08_9 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 57px;
+  top: 56px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._rectangle1_r2o08_26 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2278px;
+  height: 121px;
+  background-color: #171b5a;
+}
+._rectangle2_r2o08_34 {
+  position: absolute;
+  left: -13px;
+  top: 1505px;
+  width: 2264px;
+  height: 114px;
+  background-color: #171b5a;
+}
+._rectangle6_r2o08_42 {
+  position: absolute;
+  left: 28px;
+  top: 166px;
+  width: 1499px;
+  height: 1300px;
+  outline: solid 2px #000;
+  outline-offset: -2px;
+  border-radius: 75px;
+  background-color: #fff;
+  backdrop-filter: blur(2px);
+}
+
+._female_r2o08_84 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 681px;
+  top: 1120px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+._male_r2o08_111 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 433px;
+  top: 1138px;
+  width: 171px;
+  height: 21px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+._nO_r2o08_188 {
+  color: #000;
+  font-size: 48px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Times New Roman, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1191px;
+  top: 451px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._yES_r2o08_205 {
+  color: #000;
+  font-size: 48px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Times New Roman, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 948px;
+  top: 436px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._nO2_r2o08_222 {
+  color: #000;
+  font-size: 48px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Times New Roman, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1191px;
+  top: 354px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._yES2_r2o08_239 {
+  color: #000;
+  font-size: 48px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Times New Roman, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 948px;
+  top: 352px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+
+._motherTongue_r2o08_320 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 141px;
+  top: 1251px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._placeOfBirth_r2o08_337 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 141px;
+  top: 1184px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._sex_r2o08_354 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 137px;
+  top: 1122px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._birthdateMmDdYy_r2o08_371 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 134px;
+  top: 1060px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._extensionNameIfApplicable_r2o08_388 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 136px;
+  top: 998px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._middleName_r2o08_405 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 134px;
+  top: 936px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._lastName_r2o08_422 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 144px;
+  top: 817px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._firstName_r2o08_439 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 139px;
+  top: 879px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._learnerReferenceNOLRN_r2o08_456 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 144px;
+  top: 755px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._pSABirthCertificateNoIfAvailab_r2o08_473 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 6px;
+  top: 693px;
+  width: 1177px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+._gradeLevelToEnroll_r2o08_489 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 139px;
+  top: 613px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._sCHOOLYEAR_r2o08_506 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 137px;
+  top: 551px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._returningBalikAral_r2o08_523 {
+  position: absolute;
+  left: 134px;
+  top: 432px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._list_r2o08_534 {
+  font-size: 32px;
+}
+._list_r2o08_534 ::marker {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._textBlock_r2o08_545 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._withLRN_r2o08_553 {
+  position: absolute;
+  left: 122px;
+  top: 365px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._list2_r2o08_564 {
+  font-size: 32px;
+}
+._list2_r2o08_564 ::marker {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._textBlock2_r2o08_575 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._checkTheAppropriateBoxOnly_r2o08_583 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 156px;
+  top: 298px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._frame1_r2o08_600 {
+  position: absolute;
+  left: 251px;
+  top: 727px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+._rectangle17_r2o08_608 {
+  position: absolute;
+  left: 429px;
+  top: 226px;
+  width: 1071px;
+  height: 67px;
+  background-color: #d9d9d9;
+}
+._centerOfExcellenceGearingTowar_r2o08_626 {
+  position: absolute;
+  left: 1634px;
+  top: 1001px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._textBlock3_r2o08_637 {
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._textBlock4_r2o08_644 {
+  margin-top: 0;
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._textBlock5_r2o08_652 {
+  margin-top: 0;
+  color: #000;
+  font-size: 32px;
+  line-height: 130%;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+._logo_r2o08_660 {
+  position: absolute;
+  left: 1593px;
+  top: 403px;
+  width: 568px;
+  height: 494px;
+  background-image:/* webpackIgnore: true */ url('/assets/logo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+._iconeFlecheGaucheGrise1_r2o08_671 {
+  transform-origin: top left;
+  position: absolute;
+  left: 910px;
+  top: 1437px;
+  width: 105px;
+  height: 95px;
+  background-image:/* webpackIgnore: true */ url('/assets/iconeFlecheGaucheGrise1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+</style><style type="text/css" data-vite-dev-id="/sandbox/src/resets.css">html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: flex;
+  flex-basis: 100%;
+  width: 100%;
+}
+
+#root {
+  position: relative;
+}
+
+body button:not(:disabled) {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+input[type="date"] {
+  position: absolute;
+  left: 600px;
+  width: 701px;
+  height: 45px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4efef;
+}
+input[type="text"] {
+  position: absolute;
+  left: 600px;
+  width: 701px;
+  height: 45px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4efef;
+}
+input[type="checkbox"] {
+  position: absolute;
+  left: -80px;
+
+  width: 70px;
+  height: 65px;
+  outline: solid 2px #000;
+  outline-offset: -2px;
+  background-color: #fff9f9;
+}
+input[type="textarea"]  {
+  position: absolute;
+  left: 400px;
+  width: 401px;
+  height: 54px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4efef;
+}
+input[name="psa[]"]{
+  position: absolute;
+  left: 1040px;
+  width: 401px;
+  height: 54px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4efef;
+}
+</style></head>
+  <body>
+    <div id="root">
+        <div class="_storybrainResets_48zhe_1 _root_5lp9e_1">
+        <div class="_storybrainResets_48zhe_1 _root_r2o08_1">
+        <div class="_sTUDENTENROLLMENTFORM_r2o08_9">STUDENT ENROLLMENT FORM</div>
+        <div class="_rectangle1_r2o08_26"></div>
+        <div class="_rectangle2_r2o08_34"></div>
+        <div class="_rectangle6_r2o08_42"></div>
+        
+        <div class="_female_r2o08_84">
+          <input type="checkbox">Female</div>
+        ]
+        <div class="_male_r2o08_111">
+          <input type="checkbox">Male</div>
+        
+        <div class="_nO_r2o08_188">
+          <input type="checkbox">NO</div>
+        <div class="_yES_r2o08_205">
+          <input type="checkbox">YES</div>
+        <div class="_nO2_r2o08_222">
+          <input type="checkbox">NO</div>
+        <div class="_yES2_r2o08_239">
+          <input type="checkbox">YES</div>
+        
+        <div class="_motherTongue_r2o08_320">
+          <input type="text" id="mtongue" name="mtongue[]" >Mother Tongue:</div>
+        <div class="_placeOfBirth_r2o08_337">
+          <input type="text" id="pbirth" name="pbirth[]" >Place of Birth:</div>
+        <div class="_sex_r2o08_354">Sex:</div>
+        <div class="_birthdateMmDdYy_r2o08_371">
+          <input type="date" id="birth" name="birth[]" > Birthdate (mm/dd/yy):</div>
+        <div class="_extensionNameIfApplicable_r2o08_388">
+          <input type="text" id="exname" name="exname[]" >Extension name (if applicable):</div>
+        <div class="_middleName_r2o08_405">
+          <input type="text" id="mname" name="mname[]" >Middle name:</div>
+        <div class="_lastName_r2o08_422">
+          <input type="text" id="lname" name="lname[]" >Last name:</div>
+        <div class="_firstName_r2o08_439">
+          <input type="text" id="fname" name="fname[]" >First name:</div>
+        <div class="_learnerReferenceNOLRN_r2o08_456">
+          <input type="text" id="ref" name="ref[]" >Learner Reference NO. (LRN):</div>
+        <div class="_pSABirthCertificateNoIfAvailab_r2o08_473">
+          <input type="textarea" id="psa" name="psa[]" >PSA Birth Certificate No. (if available upon registration)</div>
+        <div class="_gradeLevelToEnroll_r2o08_489">
+          <input type="textarea" id="glevel" name="glevel[]" >Grade level to enroll:</div>
+        <div class="_sCHOOLYEAR_r2o08_506">
+          <input type="textarea" id="syear" name="syear[]" >SCHOOL YEAR:</div>
+        <div class="_returningBalikAral_r2o08_523"><ol class="_list_r2o08_534"><li>
+        <div class="_textBlock_r2o08_545">Returning? (Balik-Aral)</div>
+    </li></ol></div><div class="_withLRN_r2o08_553"><ol class="_list2_r2o08_564"><li>
+        <div class="_textBlock2_r2o08_575">With LRN?</div></li></ol></div>
+        <div class="_checkTheAppropriateBoxOnly_r2o08_583">Check the appropriate box only.</div>
+        <div class="_frame1_r2o08_600"></div>
+        <div class="_rectangle17_r2o08_608"></div>
+       
+        <div class="_centerOfExcellenceGearingTowar_r2o08_626">
+        <div class="_textBlock3_r2o08_637">Center of Excellence Gearing</div>
+        <div class="_textBlock4_r2o08_644">towards Sustainable Quality</div>
+        <div class="_textBlock5_r2o08_652">Education</div></div>
+        <div class="_logo_r2o08_660">
+          <img src="logo.jpg" alt="_logo_r2o08_660">
+        </div>
+        <a href="DESKTOP4.html">
+        <div class="_iconeFlecheGaucheGrise1_r2o08_671">
+          <img src="iconeFlecheGaucheGrise1.jpg" alt="_iconeFlecheGaucheGrise1_r2o08_671">
+        </div></a>
+      </div>
+        </div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon="{&quot;rayId&quot;:&quot;80e25fe96b4b403f&quot;,&quot;token&quot;:&quot;7449176f14aa420c959831edd48bd5b7&quot;,&quot;version&quot;:&quot;2023.8.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+</body></html>
