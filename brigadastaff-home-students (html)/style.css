@@ -1,0 +1,685 @@
+.brigadastaff-home {
+  background-color: #e4e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.brigadastaff-home .div {
+  background-color: #e4e0e0;
+  width: 2251px;
+  height: 1586px;
+  position: relative;
+}
+
+.brigadastaff-home .overlap {
+  position: absolute;
+  width: 2251px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  background-color: #171b5a;
+}
+
+.brigadastaff-home .text-wrapper {
+  position: absolute;
+  width: 954px;
+  top: 17px;
+  left: 98px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .overlap-group {
+  position: absolute;
+  width: 270px;
+  height: 40px;
+  top: 17px;
+  left: 1949px;
+}
+
+.brigadastaff-home .text-wrapper-2 {
+  position: absolute;
+  width: 125px;
+  top: 0;
+  left: 145px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .text-wrapper-3 {
+  position: absolute;
+  width: 161px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #52fcf2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.brigadastaff-home .element {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 6px;
+  left: 35px;
+  object-fit: cover;
+}
+
+.brigadastaff-home .overlap-2 {
+  position: absolute;
+  width: 364px;
+  height: 1528px;
+  top: 58px;
+  left: 0;
+  background-color: #3b3d68;
+}
+
+.brigadastaff-home .ellipse {
+  position: absolute;
+  width: 170px;
+  height: 161px;
+  top: 108px;
+  left: 97px;
+}
+
+.brigadastaff-home .text-wrapper-4 {
+  position: absolute;
+  width: 188px;
+  top: 285px;
+  left: 88px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .text-wrapper-5 {
+  position: absolute;
+  width: 219px;
+  top: 321px;
+  left: 72px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .LOG-IN-BTN {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 720px;
+  left: 75px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.brigadastaff-home .div-wrapper {
+  position: relative;
+  width: 214px;
+  height: 51px;
+  background-color: #171b5a;
+  border-radius: 50px;
+}
+
+.brigadastaff-home .text-wrapper-6 {
+  position: absolute;
+  width: 131px;
+  top: 14px;
+  left: 41px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .p {
+  position: absolute;
+  width: 279px;
+  top: 501px;
+  left: 42px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #020736;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .group-wrapper {
+  position: absolute;
+  width: 1887px;
+  height: 1195px;
+  top: 391px;
+  left: 364px;
+  background-color: #ffffffcc;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .group {
+  position: relative;
+  width: 1318px;
+  height: 251px;
+  top: 360px;
+  left: 259px;
+}
+
+.brigadastaff-home .overlap-3 {
+  position: relative;
+  width: 1326px;
+  height: 251px;
+}
+
+.brigadastaff-home .overlap-wrapper {
+  position: absolute;
+  width: 1326px;
+  height: 251px;
+  top: 0;
+  left: 0;
+}
+
+.brigadastaff-home .overlap-4 {
+  position: relative;
+  width: 1318px;
+  height: 251px;
+  background-image: url(./img/2-page0001-1-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.brigadastaff-home .TYPE {
+  position: absolute;
+  width: 253px;
+  height: 28px;
+  top: 43px;
+  left: 125px;
+}
+
+.brigadastaff-home .overlap-group-2 {
+  position: relative;
+  width: 251px;
+  height: 28px;
+}
+
+.brigadastaff-home .rectangle {
+  width: 251px;
+  height: 27px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .text-wrapper-7 {
+  width: 207px;
+  left: 22px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.brigadastaff-home .overlap-5 {
+  position: absolute;
+  width: 253px;
+  height: 28px;
+  top: 43px;
+  left: 536px;
+}
+
+.brigadastaff-home .rectangle-2 {
+  width: 253px;
+  height: 27px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .text-wrapper-8 {
+  position: absolute;
+  width: 204px;
+  top: 0;
+  left: 22px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .overlap-group-wrapper {
+  position: absolute;
+  width: 250px;
+  height: 28px;
+  top: 43px;
+  left: 949px;
+}
+
+.brigadastaff-home .overlap-6 {
+  position: relative;
+  width: 248px;
+  height: 28px;
+}
+
+.brigadastaff-home .rectangle-3 {
+  width: 248px;
+  top: 1px;
+  background-color: #ffffff;
+  position: absolute;
+  height: 27px;
+  left: 0;
+}
+
+.brigadastaff-home .TYPE-2 {
+  position: absolute;
+  width: 248px;
+  height: 27px;
+  top: 80px;
+  left: 949px;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .TYPE-3 {
+  position: absolute;
+  width: 248px;
+  height: 27px;
+  top: 116px;
+  left: 949px;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .TYPE-4 {
+  position: absolute;
+  width: 248px;
+  height: 27px;
+  top: 153px;
+  left: 949px;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .TYPE-5 {
+  position: absolute;
+  width: 248px;
+  height: 27px;
+  top: 188px;
+  left: 949px;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .overlap-7 {
+  position: absolute;
+  width: 320px;
+  height: 28px;
+  top: 79px;
+  left: 504px;
+}
+
+.brigadastaff-home .rectangle-4 {
+  width: 320px;
+  height: 27px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .text-wrapper-9 {
+  position: absolute;
+  width: 264px;
+  top: 0;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .TYPE-6 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  top: 115px;
+  left: 504px;
+}
+
+.brigadastaff-home .overlap-8 {
+  position: relative;
+  width: 320px;
+  height: 30px;
+}
+
+.brigadastaff-home .rectangle-5 {
+  width: 320px;
+  height: 28px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .overlap-9 {
+  position: absolute;
+  width: 320px;
+  height: 30px;
+  top: 150px;
+  left: 504px;
+}
+
+.brigadastaff-home .TYPE-7 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  top: 185px;
+  left: 504px;
+}
+
+.brigadastaff-home .overlap-10 {
+  position: absolute;
+  width: 248px;
+  height: 28px;
+  top: 82px;
+  left: 129px;
+}
+
+.brigadastaff-home .TYPE-8 {
+  position: absolute;
+  width: 250px;
+  height: 28px;
+  top: 115px;
+  left: 129px;
+}
+
+.brigadastaff-home .TYPE-9 {
+  position: absolute;
+  width: 250px;
+  height: 28px;
+  top: 153px;
+  left: 129px;
+}
+
+.brigadastaff-home .TYPE-10 {
+  position: absolute;
+  width: 258px;
+  height: 28px;
+  top: 188px;
+  left: 120px;
+}
+
+.brigadastaff-home .overlap-11 {
+  position: relative;
+  width: 256px;
+  height: 28px;
+}
+
+.brigadastaff-home .rectangle-6 {
+  width: 256px;
+  height: 27px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.brigadastaff-home .text-wrapper-10 {
+  position: absolute;
+  width: 211px;
+  top: 0;
+  left: 22px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .done {
+  top: 80px;
+  position: absolute;
+  width: 146px;
+  height: 27px;
+  left: 1019px;
+}
+
+.brigadastaff-home .overlap-12 {
+  position: relative;
+  width: 144px;
+  height: 27px;
+}
+
+.brigadastaff-home .rectangle-7 {
+  width: 36px;
+  top: 0;
+  background-color: #d9d9d9;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  height: 27px;
+  left: 0;
+}
+
+.brigadastaff-home .text-wrapper-11 {
+  position: absolute;
+  width: 138px;
+  top: 0;
+  left: 6px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .done-2 {
+  top: 116px;
+  position: absolute;
+  width: 146px;
+  height: 27px;
+  left: 1019px;
+}
+
+.brigadastaff-home .done-3 {
+  top: 151px;
+  position: absolute;
+  width: 146px;
+  height: 27px;
+  left: 1019px;
+}
+
+.brigadastaff-home .done-4 {
+  top: 186px;
+  position: absolute;
+  width: 146px;
+  height: 27px;
+  left: 1019px;
+}
+
+.brigadastaff-home .image-tick-mark-icon {
+  position: absolute;
+  width: 33px;
+  height: 27px;
+  top: 115px;
+  left: 1022px;
+  object-fit: cover;
+}
+
+.brigadastaff-home .img {
+  top: 153px;
+  position: absolute;
+  width: 33px;
+  height: 27px;
+  left: 1022px;
+  object-fit: cover;
+}
+
+.brigadastaff-home .image-tick-mark-icon-2 {
+  top: 185px;
+  position: absolute;
+  width: 33px;
+  height: 27px;
+  left: 1022px;
+  object-fit: cover;
+}
+
+.brigadastaff-home .image-tick-mark-icon-3 {
+  top: 80px;
+  position: absolute;
+  width: 33px;
+  height: 27px;
+  left: 1022px;
+  object-fit: cover;
+}
+
+.brigadastaff-home .overlap-13 {
+  position: absolute;
+  width: 476px;
+  height: 58px;
+  top: 333px;
+  left: 364px;
+}
+
+.brigadastaff-home .student-btn {
+  width: 239px;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.brigadastaff-home .overlap-14 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #171b5a;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .text-wrapper-12 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fafafa;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.brigadastaff-home .student-btn-2 {
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  top: 0;
+  left: 237px;
+}
+
+.brigadastaff-home .overlap-15 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #f0f0f2;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .text-wrapper-13 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.brigadastaff-home .text-wrapper-14 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.brigadastaff-home .text-wrapper-15 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.brigadastaff-home .element-2 {
+  position: absolute;
+  width: 1887px;
+  height: 262px;
+  top: 65px;
+  left: 364px;
+  object-fit: cover;
+}
