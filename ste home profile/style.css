@@ -1,0 +1,530 @@
+.ste-home-profile {
+  background-color: #e4e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ste-home-profile .div {
+  background-color: #e4e0e0;
+  width: 2267px;
+  height: 1612px;
+  position: relative;
+}
+
+.ste-home-profile .overlap {
+  position: absolute;
+  width: 2267px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  background-color: #171b5a;
+}
+
+.ste-home-profile .text-wrapper {
+  position: absolute;
+  width: 954px;
+  top: 17px;
+  left: 98px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .text-wrapper-2 {
+  position: absolute;
+  width: 125px;
+  top: 15px;
+  left: 2057px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .text-wrapper-3 {
+  position: absolute;
+  width: 186px;
+  top: 15px;
+  left: 1866px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #52fcf2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.ste-home-profile .element {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 6px;
+  left: 35px;
+  object-fit: cover;
+}
+
+.ste-home-profile .overlap-group {
+  position: absolute;
+  width: 364px;
+  height: 1554px;
+  top: 58px;
+  left: 0;
+  background-color: #3b3d68;
+}
+
+.ste-home-profile .ellipse {
+  position: absolute;
+  width: 170px;
+  height: 161px;
+  top: 108px;
+  left: 97px;
+}
+
+.ste-home-profile .text-wrapper-4 {
+  position: absolute;
+  width: 188px;
+  top: 285px;
+  left: 88px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .text-wrapper-5 {
+  position: absolute;
+  width: 219px;
+  top: 321px;
+  left: 72px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .LOG-IN-BTN {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 720px;
+  left: 75px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.ste-home-profile .div-wrapper {
+  position: relative;
+  width: 214px;
+  height: 51px;
+  background-color: #171b5a;
+  border-radius: 50px;
+}
+
+.ste-home-profile .text-wrapper-6 {
+  position: absolute;
+  width: 131px;
+  top: 14px;
+  left: 41px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .p {
+  position: absolute;
+  width: 279px;
+  top: 501px;
+  left: 42px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #020736;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .overlap-2 {
+  position: absolute;
+  width: 1903px;
+  height: 1279px;
+  top: 333px;
+  left: 364px;
+}
+
+.ste-home-profile .rectangle {
+  position: absolute;
+  width: 1903px;
+  height: 1255px;
+  top: 24px;
+  left: 0;
+  background-color: #ffffffcc;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-profile .student-btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 239px;
+  height: 58px;
+}
+
+.ste-home-profile .overlap-3 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #171b5a;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-profile .text-wrapper-7 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fafafa;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-profile .overlap-wrapper {
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  top: 1px;
+  left: 237px;
+}
+
+.ste-home-profile .overlap-4 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #f0f0f2;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-profile .text-wrapper-8 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-profile .group {
+  position: absolute;
+  width: 1185px;
+  height: 312px;
+  top: 190px;
+  left: 343px;
+}
+
+.ste-home-profile .overlap-5 {
+  position: relative;
+  width: 1177px;
+  height: 312px;
+  background-color: #f0eded;
+}
+
+.ste-home-profile .text-wrapper-9 {
+  position: absolute;
+  width: 652px;
+  top: 22px;
+  left: 58px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #0e0940;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .overlap-6 {
+  position: absolute;
+  width: 296px;
+  height: 182px;
+  top: 78px;
+  left: 71px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-profile .department-science {
+  position: absolute;
+  width: 170px;
+  top: 74px;
+  left: 61px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .span {
+  font-weight: 500;
+}
+
+.ste-home-profile .text-wrapper-10 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.ste-home-profile .department {
+  position: absolute;
+  width: 55px;
+  height: 75px;
+  top: 11px;
+  left: 119px;
+}
+
+.ste-home-profile .overlap-group-2 {
+  position: absolute;
+  width: 296px;
+  height: 182px;
+  top: 78px;
+  left: 442px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-profile .birthday-december {
+  position: absolute;
+  width: 255px;
+  top: 74px;
+  left: 20px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .text-wrapper-11 {
+  font-size: 16px;
+}
+
+.ste-home-profile .birthday {
+  position: absolute;
+  width: 59px;
+  height: 50px;
+  top: 25px;
+  left: 117px;
+}
+
+.ste-home-profile .overlap-7 {
+  position: absolute;
+  width: 296px;
+  height: 182px;
+  top: 78px;
+  left: 808px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-profile .title-master-teacher {
+  position: absolute;
+  width: 255px;
+  top: 77px;
+  left: 20px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .user-location {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 21px;
+  left: 120px;
+}
+
+.ste-home-profile .overlap-group-wrapper {
+  position: absolute;
+  width: 1174px;
+  height: 435px;
+  top: 647px;
+  left: 356px;
+}
+
+.ste-home-profile .overlap-8 {
+  position: relative;
+  width: 1164px;
+  height: 435px;
+  background-color: #f0eded;
+}
+
+.ste-home-profile .phone-number {
+  position: absolute;
+  width: 275px;
+  top: 193px;
+  left: 327px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .text-wrapper-12 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.ste-home-profile .full-name-first-name {
+  position: absolute;
+  width: 333px;
+  top: 130px;
+  left: 327px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .address-naguilian-la {
+  position: absolute;
+  width: 268px;
+  top: 257px;
+  left: 327px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .email-ste {
+  position: absolute;
+  width: 327px;
+  top: 318px;
+  left: 327px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .text-wrapper-13 {
+  position: absolute;
+  width: 328px;
+  top: 42px;
+  left: 45px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #040e3f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-profile .email {
+  position: absolute;
+  width: 29px;
+  height: 44px;
+  top: 318px;
+  left: 277px;
+}
+
+.ste-home-profile .smartphone {
+  position: absolute;
+  width: 28px;
+  height: 39px;
+  top: 193px;
+  left: 279px;
+}
+
+.ste-home-profile .address {
+  position: absolute;
+  width: 29px;
+  height: 59px;
+  top: 247px;
+  left: 277px;
+}
+
+.ste-home-profile .name {
+  position: absolute;
+  width: 33px;
+  height: 66px;
+  top: 115px;
+  left: 276px;
+}
+
+.ste-home-profile .student-btn-2 {
+  top: 1px;
+  left: 474px;
+  position: absolute;
+  width: 239px;
+  height: 58px;
+}
+
+.ste-home-profile .img {
+  position: absolute;
+  width: 1903px;
+  height: 262px;
+  top: 65px;
+  left: 364px;
+  object-fit: cover;
+}
