@@ -1,0 +1,372 @@
+.ste-home-teachers {
+  background-color: #e4e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ste-home-teachers .div {
+  background-color: #e4e0e0;
+  width: 2267px;
+  height: 1612px;
+  position: relative;
+}
+
+.ste-home-teachers .overlap {
+  position: absolute;
+  width: 2267px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  background-color: #171b5a;
+}
+
+.ste-home-teachers .text-wrapper {
+  position: absolute;
+  width: 954px;
+  top: 17px;
+  left: 98px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-teachers .text-wrapper-2 {
+  position: absolute;
+  width: 125px;
+  top: 8px;
+  left: 2087px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-teachers .text-wrapper-3 {
+  position: absolute;
+  width: 177px;
+  top: 8px;
+  left: 1910px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #52fcf2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.ste-home-teachers .element {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 6px;
+  left: 35px;
+  object-fit: cover;
+}
+
+.ste-home-teachers .overlap-group {
+  position: absolute;
+  width: 364px;
+  height: 1554px;
+  top: 58px;
+  left: 0;
+  background-color: #3b3d68;
+}
+
+.ste-home-teachers .ellipse {
+  position: absolute;
+  width: 170px;
+  height: 161px;
+  top: 108px;
+  left: 97px;
+}
+
+.ste-home-teachers .text-wrapper-4 {
+  position: absolute;
+  width: 188px;
+  top: 285px;
+  left: 88px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-teachers .text-wrapper-5 {
+  position: absolute;
+  width: 219px;
+  top: 321px;
+  left: 72px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-teachers .LOG-IN-BTN {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 720px;
+  left: 75px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.ste-home-teachers .div-wrapper {
+  position: relative;
+  width: 214px;
+  height: 51px;
+  background-color: #171b5a;
+  border-radius: 50px;
+}
+
+.ste-home-teachers .text-wrapper-6 {
+  position: absolute;
+  width: 131px;
+  top: 14px;
+  left: 41px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-teachers .p {
+  position: absolute;
+  width: 279px;
+  top: 501px;
+  left: 42px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #020736;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ste-home-teachers .overlap-2 {
+  position: absolute;
+  width: 1903px;
+  height: 1221px;
+  top: 391px;
+  left: 364px;
+}
+
+.ste-home-teachers .rectangle {
+  width: 1556px;
+  height: 689px;
+  top: 0;
+  background-color: #ffffffcc;
+  position: absolute;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-teachers .rectangle-2 {
+  position: absolute;
+  width: 1903px;
+  height: 1221px;
+  top: 0;
+  left: 0;
+  background-color: #decbcbcc;
+  border: 1px solid;
+  border-color: #413131;
+}
+
+.ste-home-teachers .rectangle-3 {
+  width: 1903px;
+  height: 1083px;
+  top: 138px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-teachers .group {
+  position: absolute;
+  width: 489px;
+  height: 34px;
+  top: 41px;
+  left: 191px;
+}
+
+.ste-home-teachers .text-wrapper-7 {
+  position: absolute;
+  width: 331px;
+  top: 9px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #0e0940;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-teachers .text-wrapper-8 {
+  position: absolute;
+  width: 154px;
+  top: 0;
+  left: 331px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #0e0940;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-teachers .capture {
+  position: absolute;
+  width: 865px;
+  height: 440px;
+  top: 449px;
+  left: 474px;
+  object-fit: cover;
+}
+
+.ste-home-teachers .overlap-3 {
+  position: absolute;
+  width: 713px;
+  height: 58px;
+  top: 333px;
+  left: 364px;
+}
+
+.ste-home-teachers .student-btn {
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  top: 0;
+  left: 0;
+}
+
+.ste-home-teachers .overlap-4 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #171b5a;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-teachers .text-wrapper-9 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fafafa;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-teachers .overlap-wrapper {
+  left: 237px;
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  top: 0;
+}
+
+.ste-home-teachers .overlap-5 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #f0f0f2;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ste-home-teachers .text-wrapper-10 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-teachers .overlap-group-wrapper {
+  left: 474px;
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  top: 0;
+}
+
+.ste-home-teachers .text-wrapper-11 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-teachers .text-wrapper-12 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ste-home-teachers .img {
+  position: absolute;
+  width: 1903px;
+  height: 262px;
+  top: 65px;
+  left: 364px;
+  object-fit: cover;
+}
