@@ -1,0 +1,534 @@
+.brigadastaff-home {
+  background-color: #e4e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.brigadastaff-home .overlap-wrapper {
+  background-color: #e4e0e0;
+  width: 2251px;
+  height: 1554px;
+}
+
+.brigadastaff-home .overlap {
+  position: relative;
+  height: 1554px;
+}
+
+.brigadastaff-home .overlap-group {
+  position: absolute;
+  width: 2251px;
+  height: 1554px;
+  top: 0;
+  left: 0;
+}
+
+.brigadastaff-home .rectangle {
+  width: 2251px;
+  height: 65px;
+  top: 0;
+  background-color: #171b5a;
+  position: absolute;
+  left: 0;
+}
+
+.brigadastaff-home .div {
+  width: 364px;
+  height: 1496px;
+  top: 58px;
+  background-color: #3b3d68;
+  position: absolute;
+  left: 0;
+}
+
+.brigadastaff-home .ellipse {
+  position: absolute;
+  width: 170px;
+  height: 161px;
+  top: 166px;
+  left: 97px;
+}
+
+.brigadastaff-home .text-wrapper {
+  position: absolute;
+  width: 188px;
+  top: 343px;
+  left: 88px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .text-wrapper-2 {
+  position: absolute;
+  width: 219px;
+  top: 379px;
+  left: 72px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .LOG-IN-BTN {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 778px;
+  left: 75px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.brigadastaff-home .div-wrapper {
+  position: relative;
+  width: 214px;
+  height: 51px;
+  background-color: #171b5a;
+  border-radius: 50px;
+}
+
+.brigadastaff-home .text-wrapper-3 {
+  position: absolute;
+  width: 131px;
+  top: 14px;
+  left: 41px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .p {
+  position: absolute;
+  width: 954px;
+  top: 17px;
+  left: 98px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .text-wrapper-4 {
+  position: absolute;
+  width: 125px;
+  top: 15px;
+  left: 2081px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .text-wrapper-5 {
+  position: absolute;
+  width: 157px;
+  top: 15px;
+  left: 1924px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #52fcf2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.brigadastaff-home .element {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 6px;
+  left: 35px;
+  object-fit: cover;
+}
+
+.brigadastaff-home .text-wrapper-6 {
+  position: absolute;
+  width: 279px;
+  top: 559px;
+  left: 42px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #020736;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .overlap-2 {
+  position: absolute;
+  width: 1887px;
+  height: 1221px;
+  top: 333px;
+  left: 364px;
+}
+
+.brigadastaff-home .rectangle-2 {
+  width: 1887px;
+  height: 1163px;
+  top: 58px;
+  background-color: #ffffffcc;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  left: 0;
+}
+
+.brigadastaff-home .student-btn {
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  top: 0;
+  left: 0;
+}
+
+.brigadastaff-home .overlap-3 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #171b5a;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .text-wrapper-7 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fafafa;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.brigadastaff-home .overlap-group-wrapper {
+  top: 1px;
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  left: 237px;
+}
+
+.brigadastaff-home .overlap-4 {
+  position: relative;
+  width: 237px;
+  height: 58px;
+  background-color: #f0f0f2;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .text-wrapper-8 {
+  position: absolute;
+  width: 192px;
+  top: 16px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.brigadastaff-home .group {
+  width: 1264px;
+  height: 307px;
+  top: 189px;
+  position: absolute;
+  left: 335px;
+}
+
+.brigadastaff-home .overlap-5 {
+  position: relative;
+  width: 1256px;
+  height: 307px;
+  background-color: #f0eded;
+}
+
+.brigadastaff-home .text-wrapper-9 {
+  position: absolute;
+  width: 696px;
+  top: 22px;
+  left: 62px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #0e0940;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .overlap-6 {
+  position: absolute;
+  width: 316px;
+  height: 179px;
+  top: 77px;
+  left: 76px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .department-science {
+  position: absolute;
+  width: 182px;
+  top: 72px;
+  left: 66px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .department {
+  position: absolute;
+  width: 59px;
+  height: 73px;
+  top: 11px;
+  left: 127px;
+}
+
+.brigadastaff-home .overlap-7 {
+  position: absolute;
+  width: 316px;
+  height: 179px;
+  top: 77px;
+  left: 472px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .birthday-december {
+  position: absolute;
+  width: 272px;
+  top: 72px;
+  left: 21px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .span {
+  font-weight: 500;
+}
+
+.brigadastaff-home .text-wrapper-10 {
+  font-size: 16px;
+}
+
+.brigadastaff-home .birthday {
+  position: absolute;
+  width: 63px;
+  height: 49px;
+  top: 24px;
+  left: 124px;
+}
+
+.brigadastaff-home .overlap-group-2 {
+  position: absolute;
+  width: 316px;
+  height: 179px;
+  top: 77px;
+  left: 863px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.brigadastaff-home .title-teacher-i {
+  position: absolute;
+  width: 272px;
+  top: 76px;
+  left: 21px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .user-location {
+  position: absolute;
+  width: 56px;
+  height: 52px;
+  top: 21px;
+  left: 128px;
+}
+
+.brigadastaff-home .group-2 {
+  width: 1266px;
+  height: 387px;
+  top: 640px;
+  position: absolute;
+  left: 335px;
+}
+
+.brigadastaff-home .overlap-8 {
+  position: relative;
+  width: 1256px;
+  height: 387px;
+  background-color: #f0eded;
+}
+
+.brigadastaff-home .phone-number {
+  position: absolute;
+  width: 297px;
+  top: 172px;
+  left: 353px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .text-wrapper-11 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.brigadastaff-home .full-name-first-name {
+  position: absolute;
+  width: 359px;
+  top: 116px;
+  left: 353px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .address-naguilian-la {
+  position: absolute;
+  width: 289px;
+  top: 229px;
+  left: 353px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .email-teacher-email {
+  position: absolute;
+  width: 353px;
+  top: 283px;
+  left: 353px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .text-wrapper-12 {
+  position: absolute;
+  width: 354px;
+  top: 38px;
+  left: 48px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #040e3f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.brigadastaff-home .email {
+  position: absolute;
+  width: 31px;
+  height: 39px;
+  top: 283px;
+  left: 299px;
+}
+
+.brigadastaff-home .smartphone {
+  position: absolute;
+  width: 30px;
+  height: 35px;
+  top: 172px;
+  left: 301px;
+}
+
+.brigadastaff-home .address {
+  position: absolute;
+  width: 31px;
+  height: 53px;
+  top: 220px;
+  left: 299px;
+}
+
+.brigadastaff-home .name {
+  position: absolute;
+  width: 35px;
+  height: 59px;
+  top: 102px;
+  left: 298px;
+}
+
+.brigadastaff-home .student-btn-2 {
+  top: 0;
+  position: absolute;
+  width: 239px;
+  height: 58px;
+  left: 237px;
+}
+
+.brigadastaff-home .img {
+  position: absolute;
+  width: 1887px;
+  height: 262px;
+  top: 65px;
+  left: 364px;
+  object-fit: cover;
+}
